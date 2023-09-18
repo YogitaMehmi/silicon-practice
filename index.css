@@ -404,6 +404,7 @@ header{
     border: 1px solid #e2e5f1;
     border-radius: 4px;
     padding: 25px;
+    width: 50%;
 }
 
 .contact-card:hover {
@@ -651,6 +652,12 @@ header{
         margin: 2px 0;
     }
     
+    .contact-card {
+        width: 100%;
+    }
+    .contact-card + .contact-card {
+        margin-top: 20px;
+    }
 }
 
 /* desktop view */
